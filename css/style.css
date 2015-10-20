@@ -1,3 +1,13 @@
+body {
+  background-color: #817570;
+  color: #DEBDA4;
+}
+
+h2, h4{
+  color: #921217;
+}
+
+}
 ul {
   padding: 0px 20px 0px 20px;
 }
