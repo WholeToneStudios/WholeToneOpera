@@ -8,7 +8,7 @@ h2, h3, h4, h5, h6{
 }
 
 .row {
-  margin-bottom: 0px
+   margin-bottom: 2em;
 }
 ul {
   padding: 0px 20px 0px 20px;
@@ -18,8 +18,8 @@ li {
       display: inline;
       padding: 0px 10px 0px 10px;
     }
-.second {
-  margin-top: 12%;
+.second div h5 {
+  margin-bottom: .5em;
 }
 .audition {
   background-color: #81736B;
@@ -44,9 +44,28 @@ li {
 }
  
 
-#flyer img {
+#flyer {
   margin-top: 4%;
   height: 100%;
   width: 100%;
   border-radius: 5px;
+}
+
+
+
+#links img {
+  margin-right: 1em;
+}
+
+
+#tickets {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 550px){
+  #tickets {
+    display: block;
+  }
 }
