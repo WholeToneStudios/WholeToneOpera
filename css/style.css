@@ -7,6 +7,10 @@ h2, h3, h4, h5, h6{
   color: #C89763;
 }
 
+h6 {
+  margin-bottom: 0rem;
+}
+
 .row {
    margin-bottom: 2em;
 }
