@@ -23,9 +23,6 @@ li {
       display: inline;
       padding: 0px 10px 0px 10px;
     }
-.second div h5 {
-  margin-bottom: .5em;
-}
 .audition {
   background-color: #81736B;
   padding: 10px 0 10px 10px;
@@ -39,7 +36,6 @@ li {
 }
 
 .nora {
-  
    background-color: #3B3632;
    border: #3B3632;
    height: 100%;
@@ -47,7 +43,7 @@ li {
    border-radius: 20px;
    display: inline-block;
 }
- 
+
 
 #flyer {
   margin-top: 4%;
@@ -67,7 +63,11 @@ li {
   display: none;
 }
 
-
+.garry {
+  width: 50%;
+  float: left;
+  margin: 1em;
+}
 
 @media screen and (max-width: 550px){
   #tickets {
