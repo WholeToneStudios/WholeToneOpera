@@ -63,10 +63,20 @@ li {
   display: none;
 }
 
-.garry {
+img {
+  margin: 1em;
+  border-radius: .5em;
+  box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.21);
+}
+
+.floatLeft {
   width: 50%;
   float: left;
-  margin: 1em;
+}
+
+.floatRight {
+  width: 50%;
+  float: right;
 }
 
 @media screen and (max-width: 550px){
