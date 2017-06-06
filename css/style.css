@@ -79,6 +79,11 @@ img {
   float: right;
 }
 
+.sectionDivider {
+  margin: 50px 10px;
+  border-top: 2px solid #C89763;
+}
+
 @media screen and (max-width: 550px){
   #tickets {
     display: block;
